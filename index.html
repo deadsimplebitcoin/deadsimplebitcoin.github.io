@@ -4,11 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Dead Simple Bitcoin</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Dead Simple Bitcoin</h1>
+    <h1>Understand Money</h1>
+    <p>Money is a <strong>tool</strong> for store of value and medium of exchange.</p>
+    <ul>
+        <li>Store of value: you work, you create value, you need a tool that stores the value</li>
+        <li>Medium of exchange: Someone else creates something of value or provides a valuable service, you need a tool to exchange your value for their value</li>
+      </ul>
+    <p>Monetary traits (a list of properties) determine if an object/item/device/thingamajig can function as this tool (as money).</p>
+    <p>Satoshi Nakamoto <strong>understood</strong> these traits and <strong>engineered</strong> Bitcoin.</p>
+    <p>Bitcoin is the greatest implementation of these traits into a monetary system.</p>
+    <p>Its dead simple: <strong>Bitcoin is the best money because it was designed to be the best money.</strong></p>
     
+    <h1> Traits of Money Interactive Table</h1>
+    <p>Click the traits of money and rating the monetary tool to get a better understanding of each form of money</p>
+    <div class="table-div">
+        <table>
+            <tr>
+            <th> Traits of Money</th>
+            <th>Bitcoin</th>
+            <th>Gold</th>
+            <th>Fiat (Dollars)</th>
+            <th>Crypto (Shitcoins)</th>
+            </tr>
+            <tr class="scarce">
+            <th class="scarce-th">Scarce</td>
+            <td class="high", id='bitcoin-scarce'>High</td>
+            <td class="moderate", id='gold-scarce'>Moderate</td>
+            <td class="low", id='fiat-scarce'>Low</td>
+            <td class="low", id="crypto-scarce">Low</td>
+            </tr>
+            <tr class="verifiable">
+            <th class="verifiable-th">Verifiable</td>
+            <td class="high" id="bitcoin-verifiable">High</td>
+            <td class="moderate" id="gold-verifiable">Moderate</td>
+            <td class="moderate", id="fiat-verifiable">Moderate</td>
+            <td class="moderate" id="crypto-verifiable">Moderate</td>
+            </tr>
+            <tr class="fungible">
+            <th class="fungible-th">Fungible</td>
+            <td class="high"  id="bitcoin-fungible">High</td>
+            <td class="high" id="gold-fungible">High</td>
+            <td class="high" id="fiat-fungible">High</td>
+            <td class="moderate" id="crypto-fungible">Moderate</td>
+            </tr>
+            <tr class="portable">
+            <th class="portable-th">Portable</td>
+            <td class="high" id="bitcoin-portable"> High</td>
+            <td class="low", id="gold-portable">Low</td>
+            <td class="high" id="fiat-portable">High</td>
+            <td class="high" id="crypto-portable">High</td>
+            </tr>
+            <tr class="durable">
+            <th class="durable-th">Durable</td>
+            <td class="high" id="bitcoin-durable">High</td>
+            <td class="high" id="gold-durable">High</td>
+            <td class="high" id="fiat-durable">High</td>
+            <td class="high" id="crypto-durable">High</td>
+            </tr>
+            <tr class="divisible">
+            <th class="divisible-th">Divisible</td>
+            <td class="high" id="bitcoin-divisible">High</td>
+            <td class="moderate"id="gold-divisible">Moderate</td>
+            <td class="high" id="fiat-divisible">High</td>
+            <td class="high" id="crypto-divisible">High</td>
+            </tr>
+            <tr class="established-history">
+            <th class="established-history-th">Established History</td>
+            <td class="moderate"id="bitcoin-established-history">Moderate</td>
+            <td class="high" id="gold-established-history">High</td>
+            <td class="moderate"id="fiat-established-history">Moderate</td>
+            <td class="low", id="crypto-established-history">Low</td>
+            </tr>
+        </table>
+    </div>
+    <div class="description-div">
+        <p id="description">Click element in table for description</p>
+    </div>
+    <h1>Convert Dollars to Bitcoin</h1>
+    <p>You understand the why, heres how you can get some bitcoin yourself:</p>
+
 </body>
 </html>
